@@ -72,6 +72,7 @@ module.exports = {
         ignore: ['\\.jpeg$', '\\.jpg$', '\\.png$', '\\.gif$', '\\.pdf$', '\\.img$'],
       }
     ],
+    'import/extensions': ['error', 'ignorePackages', { 'ts': 'never', 'tsx': 'never' }],
   },
   settings: {
     react: { version: 'detect' },

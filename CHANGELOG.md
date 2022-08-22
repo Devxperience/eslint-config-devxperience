@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.8] - 21/08/2022
+
+### Added
+
+- Added import extensions configuration rule
+
 ## [1.0.7] - 21/08/2022
 
 ### Added
