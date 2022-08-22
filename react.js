@@ -65,6 +65,13 @@ module.exports = {
     'react/function-component-definition': 'off',
     'react/jsx-filename-extension': [1, { 'extensions': ['.jsx', '.tsx'] }],
     'import/prefer-default-export': 'off',
+    'import/no-unresolved': [
+      2,
+      {
+        commonjs: true,
+        ignore: ['\\.jpeg$', '\\.jpg$', '\\.png$', '\\.gif$', '\\.pdf$', '\\.img$'],
+      }
+    ],
   },
   settings: {
     react: { version: 'detect' },
