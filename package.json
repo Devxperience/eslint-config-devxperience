@@ -1,6 +1,6 @@
 {
   "name": "@devxperience/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "private": false,
   "description": "ESLint configuration used by Devxperience.",
   "main": "index.js",

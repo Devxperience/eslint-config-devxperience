@@ -30,7 +30,7 @@ module.exports = {
       singleQuote: true,
       trailingComma: 'all',
       arrowParens: 'always',
-      semi: false,
+      semi: true,
     }],
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
@@ -62,6 +62,9 @@ module.exports = {
         vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_',
       },
     ],
+    'react/function-component-definition': 'off',
+    'react/jsx-filename-extension': [1, { 'extensions': ['.jsx', '.tsx'] }],
+    'import/prefer-default-export': 'off',
   },
   settings: {
     react: { version: 'detect' },
