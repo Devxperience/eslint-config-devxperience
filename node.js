@@ -29,6 +29,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'no-console': ['error', { 'allow': ['info', 'error'] }],
     'import/extensions': ['error', 'ignorePackages', { 'ts': 'never' }],
+    'import/no-extraneous-dependencies': 'off',
     'import-helpers/order-imports': [
       'warn',
       {

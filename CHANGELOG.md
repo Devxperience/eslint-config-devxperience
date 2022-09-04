@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.6] - 04/09/2022
+
+### Removed
+
+- Removed node.js rule import/no-extraneous-dependencies
+
 ## [1.1.5] - 03/09/2022
 
 ### Added
