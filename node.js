@@ -26,6 +26,7 @@ module.exports = {
       semi: true,
     }],
     'class-methods-use-this': 'off',
+    'import/prefer-default-export': 'off',
     'no-console': ['error', { 'allow': ['info', 'error'] }],
     'import-helpers/order-imports': [
       'warn',

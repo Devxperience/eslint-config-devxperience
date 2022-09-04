@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.2] - 03/09/2022
+
+### Added
+
+- Added Node.js eslint rule import/prefer-default-export
+
 ## [1.1.1] - 03/09/2022
 
 ### Added
