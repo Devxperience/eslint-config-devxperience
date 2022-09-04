@@ -28,6 +28,7 @@ module.exports = {
     'class-methods-use-this': 'off',
     'import/prefer-default-export': 'off',
     'no-console': ['error', { 'allow': ['info', 'error'] }],
+    'import/extensions': ['error', 'ignorePackages', { 'ts': 'never' }],
     'import-helpers/order-imports': [
       'warn',
       {
