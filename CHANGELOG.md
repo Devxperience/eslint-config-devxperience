@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.7] - 04/09/2022
+
+### Removed
+
+- Removed node.js rule camelcase
+
 ## [1.1.6] - 04/09/2022
 
 ### Removed

@@ -30,6 +30,7 @@ module.exports = {
     'no-console': ['error', { 'allow': ['info', 'error'] }],
     'import/extensions': ['error', 'ignorePackages', { 'ts': 'never' }],
     'import/no-extraneous-dependencies': 'off',
+    'camelcase': 'off',
     'import-helpers/order-imports': [
       'warn',
       {
