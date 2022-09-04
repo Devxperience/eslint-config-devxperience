@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.0] - 03/09/2022
+
+### Added
+
+- Added Node.js eslint configuration
+
 ## [1.0.8] - 21/08/2022
 
 ### Added
