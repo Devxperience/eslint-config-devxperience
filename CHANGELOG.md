@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.4] - 03/09/2022
+
+### Updated
+
+- Updated Node.js eslint rule import/helpers
+
 ## [1.1.3] - 03/09/2022
 
 ### Added

@@ -35,8 +35,8 @@ module.exports = {
         'newlinesBetween': 'always',
         'groups': [
           'module',
-          '/^(!@docs|!@config|!@constants|!@modules|!@shared|!@helpers|!@interfaces|!@services|!@utils)/',
-          '/^(@docs|@config|@constants|@modules|@shared|@helpers|@interfaces|@services|@utils)/',
+          '/^(!@docs|!@config|!@constants|!@modules|!@shared|!@helpers|!@interfaces|!@internals|!@services|!@utils)/',
+          '/^(@docs|@config|@constants|@modules|@shared|@helpers|@interfaces|@internals|@services|@utils)/',
           ['parent', 'sibling', 'index']
         ],
         'alphabetize': { 'order': 'asc', 'ignoreCase': true }
