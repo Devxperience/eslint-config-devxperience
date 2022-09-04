@@ -25,6 +25,7 @@ module.exports = {
       arrowParens: 'always',
       semi: true,
     }],
+    'class-methods-use-this': 'off',
     'no-console': ['error', { 'allow': ['info', 'error'] }],
     'import-helpers/order-imports': [
       'warn',

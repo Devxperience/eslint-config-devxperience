@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.1] - 03/09/2022
+
+### Added
+
+- Added Node.js eslint rule class-methods-use-this
+
 ## [1.1.0] - 03/09/2022
 
 ### Added
