@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.8] - 04/09/2022
+
+### Added
+
+- Disable node.js rule @typescript-eslint/ban-types
+
 ## [1.1.7] - 04/09/2022
 
 ### Removed

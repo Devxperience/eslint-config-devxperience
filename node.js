@@ -1,21 +1,9 @@
 module.exports = {
   env: { es2021: true, node: true },
-  extends: [
-    'airbnb-base',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended'
-  ],
+  extends: ['airbnb-base', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
   parser: '@typescript-eslint/parser',
-  parserOptions: {
-    ecmaVersion: 12,
-    sourceType: 'module'
-  },
-  plugins: [
-    '@typescript-eslint',
-    'prettier',
-    'import-helpers',
-    'unused-imports'
-  ],
+  parserOptions: { ecmaVersion: 12, sourceType: 'module' },
+  plugins: ['@typescript-eslint', 'prettier', 'import-helpers', 'unused-imports'],
   rules: {
     'prettier/prettier': ['error', {
       printWidth: 80,
@@ -25,12 +13,10 @@ module.exports = {
       arrowParens: 'always',
       semi: true,
     }],
-    'class-methods-use-this': 'off',
-    'import/prefer-default-export': 'off',
-    'no-console': ['error', { 'allow': ['info', 'error'] }],
-    'import/extensions': ['error', 'ignorePackages', { 'ts': 'never' }],
-    'import/no-extraneous-dependencies': 'off',
+    '@typescript-eslint/ban-types': 'off',
     'camelcase': 'off',
+    'class-methods-use-this': 'off',
+    'import/extensions': ['error', 'ignorePackages', { 'ts': 'never' }],
     'import-helpers/order-imports': [
       'warn',
       {
@@ -44,6 +30,9 @@ module.exports = {
         'alphabetize': { 'order': 'asc', 'ignoreCase': true }
       }
     ],
+    'import/no-extraneous-dependencies': 'off',
+    'import/prefer-default-export': 'off',
+    'no-console': ['error', { 'allow': ['info', 'error'] }],
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
       'warn',
@@ -55,9 +44,5 @@ module.exports = {
       }
     ],
   },
-  settings: {
-    'import/resolver': {
-      typescript: {}
-    },
-  },
+  settings: { 'import/resolver': { typescript: {} } },
 };
