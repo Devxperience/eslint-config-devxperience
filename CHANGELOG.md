@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.9] - 05/09/2022
+
+### Added
+
+- Disable node.js rule no-useless-constructor
+
 ## [1.1.8] - 04/09/2022
 
 ### Added

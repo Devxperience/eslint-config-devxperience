@@ -33,6 +33,7 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'import/prefer-default-export': 'off',
     'no-console': ['error', { 'allow': ['info', 'error'] }],
+    'no-useless-constructor': 'off',
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
       'warn',
