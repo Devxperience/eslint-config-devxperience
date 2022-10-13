@@ -73,6 +73,7 @@ module.exports = {
       }
     ],
     'import/extensions': ['error', 'ignorePackages', { 'ts': 'never', 'tsx': 'never' }],
+    'react/require-default-props': 'off',
   },
   settings: {
     react: { version: 'detect' },
